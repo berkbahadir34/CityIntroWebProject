@@ -1,1 +1,1 @@
-Knka buraya yazıyorsun bişyler . Bu klasörün içine bişeyler aıyosun tamam mı . Ben şimdi readme oluşturdum ya mesela bak .
+Bu bir web programlama projesidir.
