@@ -1,0 +1,1 @@
+Knka buraya yazıyorsun bişyler . Bu klasörün içine bişeyler aıyosun tamam mı . Ben şimdi readme oluşturdum ya mesela bak .
