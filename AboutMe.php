@@ -59,8 +59,7 @@
       <img src=".\Images\Me.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
-      <h1>John Doe</h1>
-      <p>Architect & Engineer</p>
+      <h1>Oyun Oynamak</h1>
       <p>We love that guy</p>
     </div>
   </div>
