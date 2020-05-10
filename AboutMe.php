@@ -51,7 +51,7 @@
       <div class="card-body">
         <h5 class="card-title">Futbol</h5>
         <p class="card-text">Futbol oynamak ve izlemek benim için bir  tutkudur. Tuttuğum takım Fenerbahçedir. Küçüklüğümden beri abimle bütün maçları izlerim. Fenerbahçe sevgiminde burdan geldiğini düşünüyorum.</p>
-        <a href="https://www.youtube.com/watch?v=f960yEMG2uw" class="btn btn-primary">Akıllardan Silinmicek Bir Maç İçin Tıkla</a>
+        <a href="https://www.youtube.com/watch?v=f960yEMG2uw" class="btn btn-primary">Akıllardan Silinmeyecek Bir Maç İçin Tıkla</a>
       </div>
     </div>
   </div>
