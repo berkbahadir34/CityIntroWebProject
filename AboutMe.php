@@ -60,7 +60,7 @@
     </div>
     <div class="flip-card-back">
       <h1>Oyun Oynamak</h1>
-      <p>We love that guy</p>
+      <p>tutku</p>
     </div>
   </div>
 </div>
