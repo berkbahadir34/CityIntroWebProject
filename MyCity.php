@@ -1,20 +1,20 @@
-<link rel="stylesheet" type="text/css" href="..\WebProject\Css\bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="..\WebProject\Css\NavBarCss.css">
-<link rel="stylesheet" type="text/css" href="..\WebProject\Css\MyCityCss.css">
+<link rel="stylesheet" type="text/css" href=".\Css\bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href=".\Css\NavBarCss.css">
+<link rel="stylesheet" type="text/css" href=".\Css\MyCityCss.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script type="text/javascript" src="..\WebProject\Js\bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="..\WebProject\Js\jquery.slim.js"></script>
-<script type="text/javascript" src="..\WebProject\Js\CustomJs.js"></script>
+<script type="text/javascript" src=".\Js\bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src=".\Js\jquery.slim.js"></script>
+<script type="text/javascript" src=".\Js\CustomJs.js"></script>
 
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class="topnav" id="myTopnav">
-  <a href="..\WebProject\AboutMe.html" >Hakkımda</a>
-  <a href="..\WebProject\MyCity.html" class="active">Benim Şehrim</a>
-  <a href="..\WebProject\Contact.html">İletişim</a>
-  <a href="..\WebProject\LoginPage.html">Giriş</a>
+  <a href=".\AboutMe.php" >Hakkımda</a>
+  <a href=".\MyCity.php" class="active">Benim Şehrim</a>
+  <a href=".\Contact.php">İletişim</a>
+  <a href=".\LoginPage.php">Giriş</a>
   <a href="javascript:void(0);" class="icon" onclick="toggleBarAction()">
     <i class="fa fa-chevron-circle-down"></i>
   </a>
@@ -55,9 +55,9 @@
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
 <script>
@@ -76,15 +76,15 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
