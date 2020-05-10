@@ -13,6 +13,7 @@
 <div class="topnav" id="myTopnav">
   <a href=".\AboutMe.php" >Hakkımda</a>
   <a href=".\MyCity.php">Benim Şehrim</a>
+  <a href=".\cv.php">Özgeçmiş</a>
   <a href=".\Contact.php" class="active">İletişim</a>
   <a href=".\LoginPage.php">Giriş</a>
   <a href="javascript:void(0);" class="icon" onclick="toggleBarAction()">

@@ -14,6 +14,7 @@
 <div class="topnav" id="myTopnav">
   <a href=".\AboutMe.php" >Hakkımda</a>
   <a href=".\MyCity.php">Benim Şehrim</a>
+  <a href=".\cv.php">Özgeçmiş</a>
   <a href=".\Contact.php">İletişim</a>
   <a href=".\LoginPage.php" class="active">Giriş</a>
   <a href="javascript:void(0);" class="icon" onclick="toggleBarAction()">
@@ -33,16 +34,16 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
-              <h3 class="login-heading mb-4">Welcome back!</h3>
+              <h3 class="login-heading mb-4">Hoşgeldiniz!</h3>
               <form action="welcome.php" method="post">
                 <div class="form-label-group">
                   <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                  <label for="inputEmail">Email address</label>
+                  <label for="inputEmail">Email Adresi</label>
                 </div>
 
                 <div class="form-label-group">
                   <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Password" required>
-                  <label for="inputPassword">Password</label>
+                  <label for="inputPassword">Parola</label>
                 </div>
 
 
